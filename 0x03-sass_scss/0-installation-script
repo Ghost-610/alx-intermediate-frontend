@@ -1,0 +1,6 @@
+1. Navigated to the alx-intermediate-frontend repo.
+2. Created a new directory called 0x03-sass_scss.
+3. Installed Node Version Manager (nvm) with curl.
+4. Closed and reopened the terminal.
+5. Installed Node.js version 20.16 using nvm.
+6. Installed SASS version 3.7.4 with the command: npm install sass -v 3.7.4
