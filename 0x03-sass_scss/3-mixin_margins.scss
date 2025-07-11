@@ -1,9 +1,15 @@
+// 0x03-sass_scss/3-mixin_margins.scss
+// This file defines a mixin for setting margins
+// and applies it to body and div elements.
+@mixin set-margins($margin-value) {
+  margin-left: $margin-value;
+  margin-right: $margin-value;
+}
+
 body {
-  margin-left: 10px;
-  margin-right: 10px;
+  @include set-margins(10px);
 }
 
 div {
-  margin-left: 15px;
-  margin-right: 15px;
+  @include set-margins(15px);
 }
